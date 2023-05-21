@@ -1,0 +1,342 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff !important;
+  font-family: "Playfair Display", serif !important;
+}
+
+.normal-font {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #590d22 !important;
+}
+
+a:hover {
+  color: #590d22 !important;
+}
+
+.logo {
+  color: #590d22;
+}
+
+.logo img {
+  height: 5rem;
+}
+
+ul {
+  padding-left: 0rem !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+button {
+  border: none;
+  font-size: 16px !important;
+}
+
+#header {
+  z-index: 1000;
+  background: #fff;
+  transition: top 0.3s;
+}
+
+.dropdown-menu {
+  box-shadow: none !important;
+  margin-left: -2rem !important;
+  margin-top: 1rem !important;
+}
+
+.dropdown-toggle::after {
+  margin-left: 1rem !important;
+}
+
+/* NAV */
+.f-sm {
+  font-size: 14px;
+}
+
+.f-xsm {
+  font-size: 12px;
+}
+
+.icon-btn {
+  background: none;
+}
+
+.icon-img img {
+  height: 2rem;
+}
+
+.cart {
+  height: 1.4rem;
+}
+
+.card {
+  border: none !important;
+  background: none !important;
+  overflow: hidden !important;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.cart-img {
+  height: 6rem;
+  background: #fff0f3;
+}
+
+#dot {
+  display: none;
+}
+
+/* HERO */
+.hero {
+  height: 45rem;
+  margin-top: 3rem;
+}
+
+.indicators {
+  height: 6px !important;
+  width: 6px !important;
+  border-radius: 50%;
+  border: 2px solid #fff !important;
+  background-color: transparent !important;
+}
+
+.carousel-indicators {
+  margin-right: 5% !important;
+}
+
+/* CART */
+.remove {
+  background-color: #fff;
+  text-align: start;
+  padding: 0;
+  font-size: 10px !important;
+}
+
+.alert {
+  background-color: #333 !important;
+}
+
+.menu {
+  display: none;
+}
+
+.section-2-desc {
+  width: 75% !important;
+}
+
+/* checkout */
+.checkout {
+  background-color: #f8f9fa;
+  margin-top: 8rem;
+}
+
+.checkout_icon ion-icon {
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.checkout_box {
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  background-color: #fff;
+}
+
+/* FOOTER */
+footer {
+  background: #eaeaea;
+  margin-top: 6rem;
+}
+
+.footer_icons ion-icon {
+  padding: 0.4rem;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+.subscribe {
+  width: 50%;
+}
+
+.sidebar-menu {
+  width: 50%;
+}
+
+.hero-web {
+  display: block;
+}
+
+.hero-mobile {
+  display: none;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* CHECK OUT */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.form-check-input:checked {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* SIGN UP */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.forms {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+input {
+  box-shadow: none !important;
+}
+
+input::placeholder {
+  color: #999 !important;
+}
+
+textarea {
+  box-shadow: none !important;
+}
+
+.form-select {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+ion-icon {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1199.98px) {
+  #nav--list-item {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .subscribe {
+    width: 65%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .desc {
+    font-size: 14px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  header {
+    padding-top: 0rem !important;
+  }
+
+  .subscribe {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .logo img {
+    height: 4rem;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+
+  .subscribe button {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .sidebar-menu {
+    width: 75% !important;
+  }
+
+  .hero-web {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 425.98px) {
+  h5 {
+    font-size: 14px !important;
+  }
+
+  .hero-desc {
+    display: none;
+  }
+
+  .section-2-desc {
+    width: 100% !important;
+  }
+
+  .desc {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 14px !important;
+    background-color: none !important;
+  }
+
+  .logo img {
+    height: 3.6rem;
+  }
+
+  .icons {
+    height: 1.2rem;
+  }
+
+  .card {
+    height: 22rem !important;
+  }
+
+  .sidebar-menu {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .footer-desc {
+    font-size: 16px;
+  }
+
+  .footer-desc br {
+    display: none;
+  }
+}
